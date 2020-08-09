@@ -6,8 +6,10 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_planet(planteer_calls)
-  # Your code here
+def summon_captain_planet(planteers)
+  updated = []
+  planteers.each do |planteer|
+    planteers << 
 end
 
 def long_planeteer_calls# code an argument here

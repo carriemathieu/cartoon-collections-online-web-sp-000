@@ -10,7 +10,7 @@ def summon_captain_planet(planteers)
   updated = []
   planteers.each do |planteer|
     planteer.capitalize
-    planteers << "#{planteer}!"
+    updated << "#{planteer}!"
   end
   updated
 end
